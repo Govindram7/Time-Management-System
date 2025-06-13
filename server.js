@@ -9,7 +9,7 @@ const adminRoutes = require("./routes/admin.routes");
 const errorHandler = require("./middleware/error.middleware");
 
 
-mongoose.connect("mongodb://127.0.0.1:27017/Books")
+mongoose.connect("mongodb://127.0.0.1:27017/TMS")
 .then(()=>{
   console.log("mongodb connected")
 })
